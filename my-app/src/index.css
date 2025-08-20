@@ -1,6 +1,8 @@
 body {
   padding: 50px;
+  padding-bottom: 500px;
   background-color: rgb(240, 240, 135);
+
 }
 h1 {
   color: blue;
