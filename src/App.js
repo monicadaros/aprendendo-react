@@ -6,16 +6,17 @@ import Empresa from './pages/Empresa';
 import Contato from './pages/Contato';  
 
 function App() {
-  return (<Router>
+  return (
+  <Router>
     <ul>
       <li><Link to="/">Home</Link></li>
       <li><Link to="/empresa">Empresa</Link></li>
       <li><Link to="/contato">Contato</Link></li>
     </ul>
     <Routes>
-      <Route exact patch="/" element= {<Home/>} ></Route>
-      <Route patch="/empresa" element= {<Empresa/>} > </Route>
-      <Route patch="/contato" element= {<Contato/>} ></Route>
+      <Route exact path="/" element= {<Home/>} ></Route>
+      <Route path="/empresa" element= {<Empresa/>} > </Route>
+      <Route path="/contato" element= {<Contato/>} ></Route>
     </Routes>
   </Router>
     
