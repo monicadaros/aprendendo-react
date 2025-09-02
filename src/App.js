@@ -7,6 +7,7 @@ import Contato from './pages/Contato';
 import Navbar from './layout/navbar';
 import Footer from './layout/Footer';
 
+
 function App() {
   return (
   <Router>
